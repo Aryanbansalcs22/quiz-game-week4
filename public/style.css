@@ -1,1 +1,66 @@
-/* Write your code from here
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+#quiz-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+#quiz-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#options button {
+    display: block;
+    margin: 10px 0;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    background: #007bff;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background 0.3s ease;
+}
+
+#options button:hover {
+    background: #0056b3;
+}
+
+#next {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#next:hover {
+    background: #218838;
+}
+
+#score {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
